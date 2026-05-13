@@ -2,10 +2,6 @@
 # onboarding flag. Per-machine, per-clone. Never committed.
 .claude/session/
 
-# ApexYard per-project config written by /onboard. Contains deploy URLs and
-# sensitive-topic notes that should not leak to git — keep it local.
-.claude/project-config.json
-
 # Claude Code per-machine settings (permission overrides, local tool config)
 .claude/settings.local.json
 
@@ -13,3 +9,8 @@
 # must not be double-tracked from the ops repo.
 workspace/*/
 !workspace/README.md
+
+# Portfolio data lives in a separate private repo (split-portfolio mode).
+# See docs/multi-project.md.
+apexyard.projects.yaml
+projects
