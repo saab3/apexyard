@@ -30,7 +30,7 @@
 # -----------------------------------------------------------------------------
 company:
   name: "saab3"
-  mission: "Solo-built meal-planning SaaS"
+  mission: "Solo dev portfolio — projects TBD"
   vision: ""
   website: ""
 
@@ -41,10 +41,7 @@ company:
     - "Keep it simple"
 
   # What kind of software you build
-  products:
-    - name: "Meal Planner"
-      description: "Meal-planning SaaS"
-      type: "saas"  # web-app, mobile-app, api, cli, library, saas
+  products: []
 
 # -----------------------------------------------------------------------------
 # Team Structure
